@@ -7,10 +7,10 @@ RUN apt-get update && apt-get install -y libpq-dev unzip git \
 # Installa Composer globalmente nel container
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Copia i file del tuo progetto
+# Copia TUTTI i file del progetto (ora che siamo nella root principale)
 COPY . /var/www/html/
 
-# Installa le dipendenze di Composer (se presenti)
+# Si sposta nella cartella del server per lanciare composer
 WORKDIR /var/www/html
 RUN composer install --no-dev --optimize-autoloader
 
