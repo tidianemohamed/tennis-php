@@ -1,0 +1,19 @@
+# 📦 Dipendenze PHP (Vengono installate con 'composer install')
+/vendor/
+
+# 🔑 Configurazioni sensibili (Password del database)
+/config/database.php
+.env
+
+# 🐞 Log e Errori
+*.log
+error_log
+
+# 🖥️ File di sistema (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# 🛠️ Impostazioni Editor (VS Code/IntelliJ)
+.vscode/
+.idea/
+*.swp

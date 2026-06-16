@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'mohamedtidiane/tennis-php',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '071a2ebd68e2725313791f1e5d2763ba351b9645',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'mohamedtidiane/tennis-php' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '071a2ebd68e2725313791f1e5d2763ba351b9645',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
